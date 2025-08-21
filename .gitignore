@@ -1,0 +1,17 @@
+#macOS
+.DS_Store
+
+# VS Code
+*.code-workspace
+
+# Dependencies
+node_modules
+
+# Build Directory
+dist
+
+# Archive files
+*.tgz
+
+# Documentation
+docs
