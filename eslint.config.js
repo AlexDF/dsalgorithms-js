@@ -6,7 +6,6 @@ import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended'
 import { config } from '#config/config.js';
 
 const BUILD_DIR = config.BUILD_DIR;
-const EXAMPLES_DIR = config.EXAMPLES_DIR;
 
 export default [
   {
@@ -28,7 +27,7 @@ export default [
   // HTML config
   {
     ...htmleslint.configs['flat/recommended'],
-    files: [`${EXAMPLES_DIR}/*.html`],
+    files: ['examples/*.html'],
     rules: {
       ...htmleslint.configs['flat/recommended'].rules,
       '@html-eslint/indent': ['error', 2],
