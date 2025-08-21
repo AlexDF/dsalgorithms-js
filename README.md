@@ -24,3 +24,17 @@ const maxNum = dsalgorithms.maxArray([4, 8, 2.2, 5]);
 const maxString = maxArray(['apple', 'kiwi', 'banana']);
 // -> 'kiwi'
 ```
+
+CDN:
+```html
+<!-- UNPKG -->
+<script src="https://unpkg.com/dsalgorithms-js@latest/dist/dsalgorithms-js.min.umd.js"></script>
+
+<!-- or, jsDelivr -->
+<script src="https://cdn.jsdelivr.net/npm/dsalgorithms-js@latest/dist/dsalgorithms-js.min.umd.js"></script>
+
+<script>
+  console.log(dsalgorithms.maxArray([ 6, 3, 8, 2 ]));
+  // 8
+</script>
+```
